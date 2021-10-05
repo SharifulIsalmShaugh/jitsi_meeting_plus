@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - jitsi_meeting_plus (0.0.1):
+    - Flutter
+    - JitsiMeetSDK (= 3.8.1)
+  - JitsiMeetSDK (3.8.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - jitsi_meeting_plus (from `.symlinks/plugins/jitsi_meeting_plus/ios`)
+
+SPEC REPOS:
+  trunk:
+    - JitsiMeetSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  jitsi_meeting_plus:
+    :path: ".symlinks/plugins/jitsi_meeting_plus/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  jitsi_meeting_plus: 37b17ad4deafaf5643f16f9babd4c67aecfb83ac
+  JitsiMeetSDK: 7bfbfd9b8d49225c5c1f5a87cd1d675230f11ffc
+
+PODFILE CHECKSUM: a7ae99ad71c6c60657e7ec9f9469f63e7a0b816d
+
+COCOAPODS: 1.10.2
