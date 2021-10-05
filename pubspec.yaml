@@ -1,6 +1,6 @@
 name: jitsi_meeting_plus
 description: Jitsi Meet Plus Plugin - A plugin for integrating open source Jitsi Meet API in flutter. Jitsi Meet is secure, fully featured and allows completely free video conferencing made with https://jitsi.org, a collection of open source projects
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/gowthamaravi/jitsi_meeting_plus
 
 environment:
