@@ -3,6 +3,7 @@
   <application>
         <activity
             android:name=".JitsiMeetPluginActivity"
+            android:exported="true"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
             android:launchMode="singleTask"
             android:resizeableActivity="true"
