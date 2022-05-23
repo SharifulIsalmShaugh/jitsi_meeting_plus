@@ -62,7 +62,7 @@ public class JitsiMeetingPlusPlugin() : FlutterPlugin, MethodCallHandler, Activi
     companion object {
         @JvmStatic
         fun registerWith(registrar: Registrar) {
-            val plugin = JitsiMeetingPlusPlugin(registrar.activity())
+            val plugin = registrar.activity()?.let { JitsiMeetingPlusPlugin(it) }
             val channel = MethodChannel(registrar.messenger(), JITSI_METHOD_CHANNEL)
             channel.setMethodCallHandler(plugin)
 
